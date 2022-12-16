@@ -1,0 +1,25 @@
+html {
+    background-color: #aff1ba;
+    color: rgb(75, 3, 30);
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 2px solid white;
+    font-family: 'PresentScript Cyrillic', sans-serif;
+}
+h1{
+    color: rgb(211, 141, 11);
+    text-shadow: 1px 2px 1px rgb(1, 107, 42);
+}
+h3,h2{
+    color :rgb(0, 39, 12)
+}
+@font-face {
+	font-family: 'PresentScript Cyrillic';
+	src: url('fonts/presentscript_cyrillic.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/presentscript_cyrillic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/presentscript_cyrillic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/presentscript_cyrillic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/presentscript_cyrillic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/presentscript_cyrillic.svg#presentscript_cyrillic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
