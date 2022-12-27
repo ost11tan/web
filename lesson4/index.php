@@ -26,21 +26,24 @@
 
 <?php
 $massWork = [
-["name"=>"Front End Developer",
-"dataStart"=>"Jan 2015",
-"dataEnd"=>"Curent",
-"description"=>"Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderitsunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.",
-],
-["name"=>"Web Developer / something.com",
-"dataStart"=>"Mar 2012 ",
-"dataEnd"=>"Dec 2014",
-"description"=>"Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderitsunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.",
-],
-["name"=>"Graphic Designer / designsomething.com",
-"dataStart"=>"Jun 2010 ",
-"dataEnd"=>" Mar 2012",
-"description"=>"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-],
+  [
+    "name"=>"Front End Developer",
+    "dataStart"=>"Jan 2015",
+    "dataEnd"=>"Curent",
+    "description"=>"Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderitsunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.",
+  ],
+  [
+    "name"=>"Web Developer / something.com",
+    "dataStart"=>"Mar 2012 ",
+    "dataEnd"=>"Dec 2014",
+    "description"=>"Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderitsunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.",
+  ],
+  [
+    "name"=>"Graphic Designer / designsomething.com",
+    "dataStart"=>"Jun 2010 ",
+    "dataEnd"=>" Mar 2012",
+    "description"=>"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  ],
 ];
 ?>
 
@@ -117,22 +120,22 @@ $massWork = [
           <h2 class="w3-text-grey w3-padding-16"><i
               class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
           <div class="w3-container">
-            <h5 class="w3-opacity"><b><?php echo $massWork[0][name]?> </b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $massWork[0][dataStart]?> - <span
+            <h5 class="w3-opacity"><b><?php echo $massWork[0]['name']?> </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $massWork[0]['dataStart']?> - <span
                 class="w3-tag w3-teal w3-round">Current</span></h6>
-            <p><?php echo $massWork[0][description]?></p>
+            <p><?php echo $massWork[0]['description']?></p>
             <hr>
           </div>
           <div class="w3-container">
-            <h5 class="w3-opacity"><b><?php echo $massWork[1][name]?> </b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $massWork[1][dataStart]?> - <?php echo $massWork[1][dataEnd]?>
-            <p><?php echo $massWork[1][description]?></p>
+            <h5 class="w3-opacity"><b><?php echo $massWork[1]['name']?> </b></h5>'
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $massWork[1]['dataStart']?> - <?php echo $massWork[1]['dataEnd']?>
+            <p><?php echo $massWork[1]['description']?></p>
             <hr>
           </div>
           <div class="w3-container">
-            <h5 class="w3-opacity"><b><?php echo $massWork[2][name]?></b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $massWork[2][dataStart]?> - <?php echo $massWork[2][dataEnd]?></h6>
-            <p><?php echo $massWork[2][description]?>.</p>
+            <h5 class="w3-opacity"><b><?php echo $massWork[2]['name']?></b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $massWork[2]['dataStart']?> - <?php echo $massWork[2]['dataEnd']?></h6>
+            <p><?php echo $massWork[2]['description']?>.</p>
             <hr>
           </div>
           
